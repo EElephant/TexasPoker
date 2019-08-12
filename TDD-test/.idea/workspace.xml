@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TDDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="193">
+              <caret line="61" column="99" lean-forward="true" selection-start-line="61" selection-start-column="99" selection-end-line="61" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PokerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="e#63#64#0" expanded="true" />
                 <element signature="e#102#103#0" expanded="true" />
@@ -92,6 +92,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.springframework.boot:spring-boot-starter-data-jpa:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -188,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D">
+  <component name="RunManager" selected="Gradle.TDDTest">
     <configuration name="TDDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,6 +223,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S7D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S7D&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -269,33 +297,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TDDTest" />
+        <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S7D" />
         <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D" />
         <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D" />
         <item itemvalue="Gradle.TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" />
-        <item itemvalue="Gradle.TDDTest" />
-        <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" />
       </list>
     </recent_temporary>
   </component>
@@ -313,15 +321,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 12h 48m 40s.xml">
-      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 18m 20s.xml">
-      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 19m 39s.xml">
-      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 21m 30s.xml">
       <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -343,6 +342,15 @@
     <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D - 2019.08.12 at 13h 29m 42s.xml">
       <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D - 2019.08.12 at 13h 38m 42s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S7D - 2019.08.12 at 13h 40m 54s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S7D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest - 2019.08.12 at 14h 32m 33s.xml">
+      <configuration name="TDDTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1843" height="1096" extended-state="6" />
@@ -356,7 +364,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Job Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18227707" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18227707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Terminal" />
@@ -366,7 +374,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,22 +385,14 @@
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.26360068" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PokerApp.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TDD_test$TDDTest.ic" NAME="TDDTest Coverage Results" MODIFIED="1565591546538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
@@ -422,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PokerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="136">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#63#64#0" expanded="true" />
             <element signature="e#102#103#0" expanded="true" />
@@ -433,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TDDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="193">
+          <caret line="61" column="99" lean-forward="true" selection-start-line="61" selection-start-column="99" selection-end-line="61" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

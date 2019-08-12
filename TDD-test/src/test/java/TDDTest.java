@@ -122,6 +122,14 @@ public class TDDTest {
         Assert.assertEquals(pokerList2,pokerApp.playgame(pokerList1,pokerList2,5));
     }
 
+    @Test
+    public void should_return_poker2_when_call_playgame_function_given_2C3H3C5H5C_and_3D4S5D5S5D(){
+
+        List<Poker> pokerList1 = createPokerList(new Poker(2,"C"),new Poker(3,"H"),new Poker(3,"C"),new Poker(5,"H"),new Poker(5,"C"));
+        List<Poker> pokerList2 = createPokerList(new Poker(3,"D"),new Poker(4,"S"),new Poker(5,"D"),new Poker(5,"S"),new Poker(5,"D"));
+        Assert.assertEquals(pokerList2,pokerApp.playgame(pokerList1,pokerList2,5));
+    }
+
     private List<Poker> createPokerList(Poker poker1,Poker poker2,Poker poker3,Poker poker4,Poker poker5){
         List<Poker> pokerList = new ArrayList<>();
         pokerList.add(poker1);

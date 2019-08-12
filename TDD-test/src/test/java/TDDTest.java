@@ -29,8 +29,6 @@ public class TDDTest {
     @Test
     public void should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H(){
 
-//        List<Poker> pokerList1 = createPokerList(new Poker(2,"D"),new Poker(3,"D"),new Poker(4,"D"),new Poker(5,"D"),new Poker(6,"D"));
-//        List<Poker> pokerList2 = createPokerList(new Poker(2,"D"),new Poker(3,"D"),new Poker(4,"D"),new Poker(5,"D"),new Poker(7,"D"));
         List<Poker> pokerList1 = new ArrayList<>();
         List<Poker> pokerList2 = new ArrayList<>();
         pokerList1.add(new Poker(2,"D"));
@@ -58,6 +56,14 @@ public class TDDTest {
         List<Poker> pokerList1 = createPokerList(new Poker(2,"C"),new Poker(3,"H"),new Poker(4,"C"),new Poker(7,"H"),new Poker(8,"C"));
         List<Poker> pokerList2 = createPokerList(new Poker(2,"D"),new Poker(3,"S"),new Poker(4,"D"),new Poker(8,"S"),new Poker(9,"D"));
         Assert.assertEquals(pokerList2,pokerApp.playgame(pokerList1,pokerList2,5));
+    }
+
+    @Test
+    public void should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D(){
+
+        List<Poker> pokerList1 = createPokerList(new Poker(2,"C"),new Poker(3,"H"),new Poker(4,"C"),new Poker(7,"H"),new Poker(8,"C"));
+        List<Poker> pokerList2 = createPokerList(new Poker(2,"D"),new Poker(3,"S"),new Poker(4,"D"),new Poker(7,"S"),new Poker(8,"D"));
+        Assert.assertEquals(null,pokerApp.playgame(pokerList1,pokerList2,5));
     }
 
 

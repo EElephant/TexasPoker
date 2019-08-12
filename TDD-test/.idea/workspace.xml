@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TDDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="326">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D">
+  <component name="RunManager" selected="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D">
     <configuration name="TDDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -209,12 +209,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -229,12 +229,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -291,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D7S8D" />
         <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D" />
         <item itemvalue="Gradle.TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" />
         <item itemvalue="Gradle.TDDTest" />
         <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" />
-        <item itemvalue="Gradle.TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H" />
       </list>
     </recent_temporary>
   </component>
@@ -313,12 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 12h 41m 53s.xml">
-      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_null_when_call_playgame_function_given_2D_and_2H - 2019.08.12 at 12h 41m 59s.xml">
-      <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 12h 48m 40s.xml">
       <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -342,6 +336,12 @@
     </history-entry>
     <history-entry file="TDDTest_should_return_null_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 23m 32s.xml">
       <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D - 2019.08.12 at 13h 29m 32s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D - 2019.08.12 at 13h 29m 42s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_2C3H4C7H8C_and_2D3S4D8S9D" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -433,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TDDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="326">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

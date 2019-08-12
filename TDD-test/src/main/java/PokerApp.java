@@ -15,8 +15,8 @@ public class PokerApp {
             return null;
     }
 
-    public List<Poker> playgame(List<Poker> pokerList1,List<Poker> pokerList2){
-        for(int i = 4; i>0; i--){
+    public List<Poker> playgame(List<Poker> pokerList1,List<Poker> pokerList2,int size){
+        for(int i = size-1; i>=0; i--){
             if (pokerList1.get(i).getNumber() > pokerList2.get(i).getNumber())
                 return pokerList1;
             if (pokerList1.get(i).getNumber() < pokerList2.get(i).getNumber())

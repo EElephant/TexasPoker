@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c034bc6-aef5-4755-b33c-ec87f2fe58cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PokerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PokerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baseline-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDDTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,13 +26,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TDDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="510">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PokerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="306">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#63#64#0" expanded="true" />
                 <element signature="e#102#103#0" expanded="true" />
@@ -180,7 +191,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H">
+  <component name="RunManager" selected="Gradle.TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H">
+    <configuration name="TDDTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TDDTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,12 +232,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D&quot; --stacktrace" />
+        <option name="scriptParameters" value="--tests &quot;TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -263,10 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TDDTest.should_return_null_when_call_playgame_function_given_3D3H_and_2D3H" />
+        <item itemvalue="Gradle.TDDTest" />
         <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" />
         <item itemvalue="Gradle.TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H" />
         <item itemvalue="Gradle.TDDTest.should_return_poker2_when_call_playgame_function_given_2D_and_3D" />
-        <item itemvalue="Gradle.TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" />
       </list>
     </recent_temporary>
   </component>
@@ -284,24 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TDDTest_should_return_player2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 08h 21m 03s.xml">
-      <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_player2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 08h 23m 49s.xml">
-      <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_player2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 08h 28m 34s.xml">
-      <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_player2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 08h 34m 23s.xml">
-      <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_player2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 08h 36m 38s.xml">
-      <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TDDTest_should_return_player2_when_call_playgame_function_given_2D_and_3D - 2019.08.12 at 08h 37m 12s.xml">
-      <configuration name="TDDTest.should_return_player2_when_call_playgame_function_given_2D_and_3D" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TDDTest_should_return_null_when_call_playgame_function_given_2D_and_2H - 2019.08.12 at 08h 39m 53s.xml">
       <configuration name="TDDTest.should_return_null_when_call_playgame_function_given_2D_and_2H" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -313,6 +327,24 @@
     </history-entry>
     <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 12h 48m 40s.xml">
       <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 18m 20s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 19m 39s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 21m 30s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 22m 26s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest_should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H - 2019.08.12 at 13h 22m 28s.xml">
+      <configuration name="TDDTest.should_return_poker2_when_call_playgame_function_given_3D3H_and_2D3H" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TDDTest - 2019.08.12 at 13h 22m 33s.xml">
+      <configuration name="TDDTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +369,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,6 +385,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PokerApp.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -361,17 +405,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PokerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#63#64#0" expanded="true" />
-            <element signature="e#102#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -390,10 +423,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PokerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#102#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TDDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="510">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
